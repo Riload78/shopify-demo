@@ -63,6 +63,23 @@
         "title_carousel": "Productos destacados"
       }
     },
+    "banner_adidas_wamjhk": {
+      "type": "banner-adidas",
+      "settings": {
+        "image": "shopify://shop_images/adidas-banner.jpg",
+        "alt": "Adidas",
+        "title": "Demo Titulo Principal del banner",
+        "subtitle": "Visita niestro categorias más destacadas",
+        "cta_link_1": "shopify://collections",
+        "cta_button_text_1": "Nuestras colecciones",
+        "cta_link_2": "shopify://products/the-collection-snowboard-liquid",
+        "cta_button_text_2": "Vás visto",
+        "cta_link_3": "shopify://blogs/news",
+        "cta_button_text_3": "Visita nuestro blog",
+        "vertical_align": "bottom",
+        "horizontal_align": "left"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -273,34 +290,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "banner_adidas_wamjhk": {
-      "type": "banner-adidas",
-      "settings": {
-        "image": "shopify://shop_images/adidas-banner.jpg",
-        "alt": "Adidas",
-        "title": "Demo Titulo Principal del banner",
-        "subtitle": "Visita niestro categorias más destacadas",
-        "cta_link_1": "shopify://collections",
-        "cta_button_text_1": "Nuestras colecciones",
-        "cta_link_2": "shopify://products/the-collection-snowboard-liquid",
-        "cta_button_text_2": "Vás visto",
-        "cta_link_3": "shopify://blogs/news",
-        "cta_button_text_3": "Visita nuestro blog",
-        "vertical_align": "bottom",
-        "horizontal_align": "left"
-      }
     }
   },
   "order": [
     "slider_banner",
     "carrousel_tabs_rejjew",
+    "banner_adidas_wamjhk",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "banner_adidas_wamjhk"
+    "multicolumn"
   ]
 }
