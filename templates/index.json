@@ -20,10 +20,20 @@
             "link_text": "Ver más",
             "url_link": "shopify://products/the-collection-snowboard-hydrogen"
           }
+        },
+        "slide_B46bm3": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "Titulo 02",
+            "slide_image": "shopify://shop_images/slider-01.jpg",
+            "link_text": "Ver más",
+            "url_link": "shopify://pages/contact"
+          }
         }
       },
       "block_order": [
-        "slide_MPTizC"
+        "slide_MPTizC",
+        "slide_B46bm3"
       ],
       "settings": {
         "text": "Swiper Slider"
