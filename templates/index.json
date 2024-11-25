@@ -25,13 +25,6 @@
             "tab_collection": "automated-collection"
           }
         },
-        "carousel_tabs_7xEgqQ": {
-          "type": "carousel-tabs",
-          "settings": {
-            "tab_title": "",
-            "tab_collection": ""
-          }
-        },
         "carousel_tabs_YipPFr": {
           "type": "carousel-tabs",
           "settings": {
@@ -49,7 +42,6 @@
       },
       "block_order": [
         "carousel_tabs_PcMxfq",
-        "carousel_tabs_7xEgqQ",
         "carousel_tabs_YipPFr",
         "carousel_tabs_GAkiF7"
       ],
