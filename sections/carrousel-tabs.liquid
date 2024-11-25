@@ -1,0 +1,77 @@
+{{ 'carousel-tabs.css' | asset_url | stylesheet_tag }}
+
+<section class="section-carrousel-tabs">
+  <h2 class="section-title">{{ section.settings.title_carousel }}</h2>
+  <tabs-component>
+    <section class="tabs-title-wrapper">
+      {% for block in section.blocks %}
+        {% if block.settings.tab_title != blank %}
+          <tab-title
+            id="tab-{{ forloop.index }}"
+            class="button button--primary tabs-button"
+            index="{{ forloop.index }}"
+            {% if forloop.first %}
+              active
+            {% endif %}
+          >
+            {{ block.settings.tab_title }}
+          </tab-title>
+        {% endif %}
+      {% endfor %}
+    </section>
+    <section class="tabs-content-wrapper">
+      {% for block in section.blocks %}
+        {% if block.settings.tab_collection != blank %}
+          <tab-content
+            id="tab-content-{{ forloop.index }}"
+            class="tabs-content"
+            index="{{ forloop.index }}"
+            {% if forloop.first %}
+              active
+            {% endif %}
+          >
+            {{ block.settings.tab_collection.title }}
+          </tab-content>
+        {% endif %}
+      {% endfor %}
+    </section>
+  </tabs-component>
+</section>
+
+{% schema %}
+{
+  "name": "Carousel Tabs",
+  "tag": "section",
+  "class": "section-carrousel-tabs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_carousel",
+      "label": "Title Carousel"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "carousel-tabs",
+      "name": "Carousel Tabs",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title"
+        },
+        {
+          "type": "collection",
+          "id": "tab_collection",
+          "label": "Collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carousel Tab"
+    }
+  ]
+}
+{% endschema %}

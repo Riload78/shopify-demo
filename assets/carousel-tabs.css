@@ -1,0 +1,9 @@
+.section-carrousel-tabs {}
+
+.tabs-content {
+    display: none;
+}
+
+.tabs-content[active] {
+    display: block;
+}

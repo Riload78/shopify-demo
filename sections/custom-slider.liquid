@@ -1,0 +1,106 @@
+{{ 'section.custom-slider.css' | asset_url | stylesheet_tag }}
+
+<h1>{{ section.settings.heading }}</h1>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <article>
+          <h2>{{ block.settings.slide_text }}</h2>
+          <a href="{{ block.settings.url_link }}">{{ block.settings.link_text }}</a>
+        </article>
+        <img
+          src="{{ block.settings.slide_image | image_url }}"
+          alt="{{ block.settings.slide_text }}"
+          width="100%"
+          height="auto"
+        >
+      </div>
+    {% endfor %}
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Tu código aquí
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Esto es un label",
+      "default": "Swiper Slider",
+      "info": "Esto es info",
+      "placeholder": "Esto es placeholde"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "slide_text",
+          "label": "Titulo para el slide"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Selecciona tu imagen"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text",
+          "default": "Ver más"
+        },
+        {
+          "type": "url",
+          "id": "url_link",
+          "label": "Url",
+          "info": "url de enlace"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

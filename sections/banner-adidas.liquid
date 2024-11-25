@@ -1,0 +1,165 @@
+{{ 'adidas-banner.css' | asset_url | stylesheet_tag }}
+<div class="section-banner-adidas">
+  <div class="section-banner-adidas__inner">
+    {{
+      section.settings.image
+      | image_url: width: 1900
+      | image_tag:
+        width: 1900,
+        widths: '1900, 800, 600',
+        class: 'section-banner-adidas__image',
+        alt: section.settings.alt
+      | escape
+    }}
+    <article class="section-banner-adidas__content {{ section.settings.vertical_align }}  {{ section.settings.horizontal_align }}">
+      {% if section.settings.title %}
+        <h2>{{ section.settings.title | escape }}</h2>
+      {% endif %}
+      {% if section.settings.subtitle %}
+        <h3>{{ section.settings.subtitle | escape }}</h3>
+      {% endif %}
+      <div class="actions">
+        {% if section.settings.cta_link_1 %}
+          <a
+            href="{{ section.settings.cta_link_1 }}"
+            class="button button--primary section-banner-adidas__button"
+          >
+            {{- section.settings.cta_button_text_1 -}}
+          </a>
+        {% endif %}
+        {% if section.settings.cta_link_2 %}
+          <a
+            href="{{ section.settings.cta_link_2 }}"
+            class="button button--secondary section-banner-adidas__button"
+          >
+            {{- section.settings.cta_button_text_2 -}}
+          </a>
+        {% endif %}
+        {% if section.settings.cta_link_3 %}
+          <a
+            href="{{ section.settings.cta_link_3 }}"
+            class="button button--secondary section-banner-adidas__button"
+          >
+            {{- section.settings.cta_button_text_3 -}}
+          </a>
+        {% endif %}
+      </div>
+    </article>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Adidas banner",
+  "class": "adidas-banner-section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "alt",
+      "label": "Image Alt Text"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Banner Title"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Banner Subtitle"
+    },
+    {
+      "type": "header",
+      "content": "Banner button settings"
+    },
+    {
+      "type": "url",
+      "id": "cta_link_1",
+      "label": "Banner Link"
+    },
+    {
+      "type": "text",
+      "id": "cta_button_text_1",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link_2",
+      "label": "Banner Link"
+    },
+    {
+      "type": "text",
+      "id": "cta_button_text_2",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link_3",
+      "label": "Banner Link"
+    },
+    {
+      "type": "text",
+      "id": "cta_button_text_3",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "header",
+      "content": "Content Position"
+    },
+    {
+      "type": "select",
+      "id": "vertical_align",
+      "label": "Vertical Alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "middle",
+          "label": "Middle"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "bottom"
+    },
+    {
+      "type": "select",
+      "id": "horizontal_align",
+      "label": "Horizontal Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Adidas"
+    }
+  ]
+}
+{% endschema %}

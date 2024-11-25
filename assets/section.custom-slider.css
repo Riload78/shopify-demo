@@ -1,0 +1,45 @@
+.swiper .swiper-slide {
+    position: relative;
+}
+
+.swiper .swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-slide a {
+    background-color: black;
+    color           : white;
+    padding         : 10px;
+    border-radius   : 10px;
+    text-decoration : none;
+}
+
+
+.swiper .swiper-slide a:hover {
+    background-color: white;
+    color           : black;
+}
+
+.swiper .swiper-slide article {
+    position        : absolute;
+    bottom          : 50%;
+    top             : 50%;
+    left            : 0;
+    right           : 0;
+    padding         : 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color           : white;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    padding         : 3rem;
+}
+
+.swiper .swiper-slide article h2 {
+    color: white;
+}
+
+.list-icon-wrapper .et_pb_text_inner::before {
+    background-image: url('/wp-content/uploads/2024/11/shopify-logo.png') !important;
+}
