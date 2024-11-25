@@ -11,6 +11,20 @@
   "sections": {
     "slider_banner": {
       "type": "custom-slider",
+      "blocks": {
+        "slide_MPTizC": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "Titulo Slide 01",
+            "slide_image": "shopify://shop_images/slider-02.png",
+            "link_text": "Ver más",
+            "url_link": "shopify://products/the-collection-snowboard-hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MPTizC"
+      ],
       "settings": {
         "text": "Swiper Slider"
       }
