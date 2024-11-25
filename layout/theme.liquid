@@ -34,7 +34,7 @@
     <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'tabs.js' | asset_url }}" defer="defer"></script>
+    <script type="module" src="{{ 'tabs.js' | asset_url }}" defer="defer"></script>
 
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
@@ -297,7 +297,6 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    <script src="{{ 'swiper-bundle.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

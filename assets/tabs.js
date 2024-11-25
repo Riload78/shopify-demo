@@ -37,7 +37,6 @@ class TabTitle extends HTMLElement {
       //acceder al contenido y agregarle el atributo active
       this.tabsComponent.removeContentActive();
       const index = this.getAttribute('index');
-      console.log(index);
       this.tabsComponent.tabsContent[index - 1].setAttribute('active', '');
     });
   }
