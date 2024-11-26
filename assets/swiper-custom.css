@@ -1,0 +1,8 @@
+:root {
+    --swiper-theme-color    : black;
+    --swiper-navigation-size: 30px;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {}

@@ -1,73 +1,216 @@
 {{ 'carousel-tabs.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'swiper-bundle.js' | asset_url }}" defer="defer"></script>
+{{ 'swiper-custom.css' | asset_url | stylesheet_tag }}
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+<div class="content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}{{ section.settings.content_alignment }}">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width {{ section.settings.content_alignment }}">
+      {%- if section.settings.title_carousel != blank -%}
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}  rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {{ section.settings.title_carousel }}
+        </h2>
+      {%- endif -%}
+      {%- if section.settings.description != blank
+        or section.settings.show_description
+        and section.settings.collection.description != empty
+      -%}
+        <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {%- if section.settings.show_description -%}
+            {{ section.settings.collection.description }}
+          {%- else -%}
+            {{ section.settings.description -}}
+          {%- endif %}
+        </div>
+      {%- endif -%}
+    </div>
 
-<section class="section-carrousel-tabs">
-  <h2 class="section-title">{{ section.settings.title_carousel }}</h2>
-  <tabs-component>
-    <section class="tabs-title-wrapper">
-      {% for block in section.blocks %}
-        {% if block.settings.tab_title != blank %}
-          <tab-title
-            id="tab-{{ forloop.index }}"
-            class="button button--primary tabs-button"
-            index="{{ forloop.index }}"
-            {% if forloop.first %}
-              active
+    <tabs-component>
+      <div class="page-width page-width page-width-desktop slider-component ">
+        <section class="tabs-title-wrapper {{ section.settings.tabs_button_alignment }}">
+          {% for block in section.blocks %}
+            {% if block.settings.tab_title != blank %}
+              <tab-title
+                id="tab-{{ forloop.index }}"
+                class="button button--primary tabs-button"
+                index="{{ forloop.index }}"
+                {% if forloop.first %}
+                  active
+                {% endif %}
+              >
+                {{ block.settings.tab_title }}
+              </tab-title>
             {% endif %}
-          >
-            {{ block.settings.tab_title }}
-          </tab-title>
-        {% endif %}
-      {% endfor %}
-    </section>
-    <section class="tabs-content-wrapper">
-      {% for block in section.blocks %}
-        {% if block.settings.tab_collection != blank %}
-          <tab-content
-            id="tab-content-{{ forloop.index }}"
-            class="tabs-content"
-            index="{{ forloop.index }}"
-            {% if forloop.first %}
-              active
+          {% endfor %}
+        </section>
+        <section class="tabs-content-wrapper">
+          {% for block in section.blocks %}
+            {% if block.settings.tab_collection != blank %}
+              <tab-content
+                id="tab-content-{{ forloop.index }}"
+                class="tabs-content"
+                index="{{ forloop.index }}"
+                {% if forloop.first %}
+                  active
+                {% endif %}
+              >
+                <div class="collection-block">
+                  <h2>{{ block.settings.tab_collection.title }}</h2>
+                  <p>{{ block.settings.tab_collection.description }}</p>
+                  <div class="swiper">
+                    <div class="swiper-wrapper contains-card contains-card--product">
+                      {% assign skip_card_product_styles = false %}
+                      {% for product in block.settings.tab_collection.products %}
+                        <div class="swiper-slide grid__item">
+                          {% render 'card-product',
+                            card_product: product,
+                            media_aspect_ratio: section.settings.image_ratio,
+                            image_shape: section.settings.image_shape,
+                            show_secondary_image: section.settings.show_secondary_image,
+                            show_vendor: section.settings.show_vendor,
+                            show_rating: section.settings.show_rating,
+                            skip_styles: skip_card_product_styles,
+                            section_id: section.id,
+                            quick_add: section.settings.quick_add
+                          %}
+                        </div>
+                        {%- assign skip_card_product_styles = true -%}
+                      {% endfor %}
+                    </div>
+                    <div class="swiper-button-next">a</div>
+                    <div class="swiper-button-prev">a</div>
+                  </div>
+                </div>
+              </tab-content>
             {% endif %}
-          >
-            <div class="collection-block swiper">
-              <h2>{{ block.settings.tab_collection.title }}</h2>
-              <p>{{ block.settings.tab_collection.description }}</p>
-              <ul>
-                {% for product in block.settings.tab_collection.products %}
-                  <li>
-                    <a href="{{ product.url }}">
-                      <img
-                        src="{{ product.featured_image | img_url: 'small' }}"
-                        alt="{{ product.title }}"
-                        width="auto"
-                        height="auto"
-                      >
-                      <span>{{ product.title }}</span>
-                    </a>
-                    <span>{{ product.price | money }}</span>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </tab-content>
-        {% endif %}
-      {% endfor %}
-    </section>
-  </tabs-component>
-</section>
+          {% endfor %}
+        </section>
+      </div>
+    </tabs-component>
+  </div>
+</div>
 
 {% schema %}
 {
   "name": "Carousel Tabs",
   "tag": "section",
   "class": "section-carrousel-tabs",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
   "settings": [
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "title_carousel",
-      "label": "Title Carousel"
+      "default": "t:sections.featured-collection.settings.title.default",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.featured-collection.settings.description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "t:sections.featured-collection.settings.show_description.label",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "t:sections.featured-collection.settings.description_style.label",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:sections.featured-collection.settings.description_style.options__1.label"
+        },
+        {
+          "value": "subtitle",
+          "label": "t:sections.featured-collection.settings.description_style.options__2.label"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:sections.featured-collection.settings.description_style.options__3.label"
+        }
+      ],
+      "default": "body"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "scheme-1"
+    },
+    {
+      "type": "select",
+      "id": "tabs_button_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.rich-text.settings.content_alignment.label",
+      "info": "dasd"
     }
   ],
   "blocks": [
