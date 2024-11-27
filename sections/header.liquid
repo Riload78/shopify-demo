@@ -237,11 +237,25 @@
               {%- if customer and customer.has_avatar? -%}
                 {{ customer | avatar }}
               {%- else -%}
+               <div class="account-wrapper">
                 <span class="svg-wrapper">{{ 'icon-account.svg' | inline_asset_content }}</span>
+                {%- if customer -%}
+                  <span class="customer-name">
+                    {{ customer.first_name | escape }}
+                  </span>
+                {%- endif -%}
+              </div>
               {%- endif -%}
             </account-icon>
           {%- else -%}
-            <span class="svg-wrapper">{{ 'icon-account.svg' | inline_asset_content }}</span>
+            <div class="account-wrapper">
+              <span class="svg-wrapper">{{ 'icon-account.svg' | inline_asset_content }}</span>
+              {%- if customer -%}
+                <span class="customer-name">
+                  {{ customer.first_name | escape }}
+                </span>
+              {%- endif -%}
+            </div>
           {%- endif -%}
           <span class="visually-hidden">
             {%- liquid
@@ -252,15 +266,6 @@
               endif
             -%}
           </span>
-          {%- if customer -%}
-            <span class="customer-name">
-              {{ customer.name | escape }}
-            </span>
-          {%- else -%}
-            <span class="visually-hidden">
-              {{ 'customer.log_in' | t }}
-            </span>
-          {%- endif -%}
         </a>
       {%- endif -%}
 
