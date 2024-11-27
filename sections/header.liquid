@@ -252,6 +252,15 @@
               endif
             -%}
           </span>
+          {%- if customer -%}
+            <span class="customer-name">
+              {{ customer.name | escape }}
+            </span>
+          {%- else -%}
+            <span class="visually-hidden">
+              {{ 'customer.log_in' | t }}
+            </span>
+          {%- endif -%}
         </a>
       {%- endif -%}
 
