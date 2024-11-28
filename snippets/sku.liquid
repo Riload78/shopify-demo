@@ -1,0 +1,12 @@
+{% comment %}
+  Snippet: product-sku.liquid
+  Propósito: Mostrar el SKU del producto o un mensaje si no está disponible.
+{% endcomment %}
+
+<div class="{{ sku_class }}">
+  {% if product.variants.size > 0 and product.variants.first.sku != null %}
+    <p>SKU: {{ product.variants.first.sku }}</p>
+  {% else %}
+    <p>SKU no disponible</p>
+  {% endif %}
+</div>
