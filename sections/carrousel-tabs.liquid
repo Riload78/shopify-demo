@@ -4,10 +4,10 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 <div class="content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}{{ section.settings.content_alignment }}">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} {{ section.settings.content_alignment }}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width {{ section.settings.content_alignment }}">
       {%- if section.settings.title_carousel != blank -%}
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}  rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title_carousel }}
         </h2>
       {%- endif -%}
@@ -15,7 +15,7 @@
         or section.settings.show_description
         and section.settings.collection.description != empty
       -%}
-        <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="collection__description {{ section.settings.description_style }}">
           {%- if section.settings.show_description -%}
             {{ section.settings.collection.description }}
           {%- else -%}
@@ -77,8 +77,8 @@
                         {%- assign skip_card_product_styles = true -%}
                       {% endfor %}
                     </div>
-                    <div class="swiper-button-next">a</div>
-                    <div class="swiper-button-prev">a</div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                   </div>
                 </div>
               </tab-content>
