@@ -30,6 +30,20 @@
             "text_style": "subtitle"
           }
         },
+        "sku_Mgmkbi": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "inventory_JTcUWr": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -92,24 +106,17 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "test_app_star_rating_RfabDH": {
-          "type": "shopify://apps/test-app/blocks/star_rating/9886d5ee-74f0-4264-9b0b-bbd4d9aad1d9",
-          "settings": {
-            "product": "{{product}}",
-            "colour": "#ff0000"
-          }
+        "rating_r8izYz": {
+          "type": "rating",
+          "settings": {}
         }
       },
       "block_order": [
         "vendor",
         "title",
         "caption",
+        "sku_Mgmkbi",
+        "inventory_JTcUWr",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -119,8 +126,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "test_app_star_rating_RfabDH"
+        "rating_r8izYz"
       ],
       "settings": {
         "enable_sticky_info": true,
