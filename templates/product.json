@@ -36,10 +36,9 @@
             "text_style": "body"
           }
         },
-        "alireviews_aliexpress_reviews_product_app_block_qgqbVb": {
-          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
+        "alireviews_aliexpress_reviews_product_title_app_block_XTK98T": {
+          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-title-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
           "settings": {
-            "product": "",
             "product_id": ""
           }
         },
@@ -123,7 +122,7 @@
         "title",
         "caption",
         "sku_Mgmkbi",
-        "alireviews_aliexpress_reviews_product_app_block_qgqbVb",
+        "alireviews_aliexpress_reviews_product_title_app_block_XTK98T",
         "inventory_JTcUWr",
         "price",
         "variant_picker",
@@ -187,6 +186,24 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "17350435900d49dd1b": {
+      "type": "apps",
+      "blocks": {
+        "alireviews_aliexpress_reviews_product_app_block_VQqwkB": {
+          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
+          "settings": {
+            "product": "",
+            "product_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "alireviews_aliexpress_reviews_product_app_block_VQqwkB"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "multicolumn": {
@@ -254,6 +271,7 @@
   "order": [
     "main",
     "image-with-text",
+    "17350435900d49dd1b",
     "multicolumn",
     "related-products"
   ]
