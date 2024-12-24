@@ -36,9 +36,10 @@
             "text_style": "body"
           }
         },
-        "alireviews_aliexpress_reviews_product_title_app_block_bjPmBm": {
-          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-title-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
+        "alireviews_aliexpress_reviews_product_app_block_qgqbVb": {
+          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
           "settings": {
+            "product": "",
             "product_id": ""
           }
         },
@@ -122,7 +123,7 @@
         "title",
         "caption",
         "sku_Mgmkbi",
-        "alireviews_aliexpress_reviews_product_title_app_block_bjPmBm",
+        "alireviews_aliexpress_reviews_product_app_block_qgqbVb",
         "inventory_JTcUWr",
         "price",
         "variant_picker",
