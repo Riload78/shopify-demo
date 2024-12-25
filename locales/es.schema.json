@@ -1484,6 +1484,14 @@
         "show_collection_image": {
           "label": "Mostrar imagen de la colección",
           "info": "Para mejores resultados, utiliza una imagen con una relación de aspecto 16:9. [Más información](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "banner": {
+          "label": "Mostrar Banner de la colección",
+          "info": "Para mejores resultados, utiliza una imagen con una relación de aspecto 16:9. [Más información](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "subcategories": {
+          "label": "Mostrar subcatergorías",
+          "info": "Solo se mostrarán si tiene colecciones asociadas"
         }
       }
     },
