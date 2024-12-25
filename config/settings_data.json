@@ -15,7 +15,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1600,
+    "page_width": 1100,
     "spacing_sections": 20,
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 4,
@@ -152,6 +152,16 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "11725188719379445612": {
+        "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/collection-app-embed-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
+        "disabled": false,
+        "settings": {}
+      },
+      "17795443093154390816": {
+        "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-embed-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
