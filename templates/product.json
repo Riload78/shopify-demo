@@ -72,10 +72,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "description_bcHqpn": {
-          "type": "description",
-          "settings": {}
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -128,7 +124,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description_bcHqpn",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -157,38 +152,17 @@
         "row_hx9T4d": {
           "type": "row",
           "settings": {
-            "caption": "Leyenda",
-            "heading": "Fila",
+            "image": "{{ product.featured_image }}",
+            "caption": "",
+            "heading": "Descripción",
             "text": "{{ product.description }}",
             "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_wgf7aD": {
-          "type": "row",
-          "settings": {
-            "caption": "Leyenda",
-            "heading": "Fila",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
-          }
-        },
-        "row_yXAJJH": {
-          "type": "row",
-          "settings": {
-            "caption": "Leyenda",
-            "heading": "Fila",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "button_label": "Etiqueta de botón",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_hx9T4d",
-        "row_wgf7aD",
-        "row_yXAJJH"
+        "row_hx9T4d"
       ],
       "settings": {
         "image_height": "medium",
