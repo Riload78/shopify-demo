@@ -72,6 +72,10 @@
             "show_gift_card_recipient": true
           }
         },
+        "description_bcHqpn": {
+          "type": "description",
+          "settings": {}
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -80,10 +84,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -128,8 +128,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description_bcHqpn",
         "collapsible-row-0",
-        "description",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
@@ -149,6 +149,67 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "collapsible_content_3QVgi3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_prgkLA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable{{ block.settings.page.title }}",
+            "icon": "check_mark",
+            "row_content": "{{ block.settings.page.content }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_HVq4i4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_w3CqEx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_7ACUf9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_prgkLA",
+        "collapsible_row_HVq4i4",
+        "collapsible_row_w3CqEx",
+        "collapsible_row_7ACUf9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Contenido desplegable",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collage_4bT8En": {
@@ -307,6 +368,7 @@
   },
   "order": [
     "main",
+    "collapsible_content_3QVgi3",
     "collage_4bT8En",
     "image-with-text",
     "17350435900d49dd1b",
