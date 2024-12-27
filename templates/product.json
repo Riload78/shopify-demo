@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_XWBRLq": {
+          "type": "text",
+          "settings": {
+            "text": "Bloque de texto",
+            "text_style": "body"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -87,6 +94,7 @@
         }
       },
       "block_order": [
+        "text_XWBRLq",
         "vendor",
         "title",
         "caption",
@@ -105,7 +113,7 @@
         "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
