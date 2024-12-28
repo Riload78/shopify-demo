@@ -133,7 +133,7 @@
             "image": "{{ product.featured_image }}",
             "caption": "",
             "heading": "Descripción",
-            "text": "{{ product.description }}",
+            "text": "{{ product.metafields.custom.large_description | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
