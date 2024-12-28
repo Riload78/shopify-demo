@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_XWBRLq": {
-          "type": "text",
-          "settings": {
-            "text": "Bloque de texto",
-            "text_style": "body"
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -28,6 +21,10 @@
         },
         "title": {
           "type": "title",
+          "settings": {}
+        },
+        "description_6dUkiD": {
+          "type": "description",
           "settings": {}
         },
         "caption": {
@@ -94,9 +91,9 @@
         }
       },
       "block_order": [
-        "text_XWBRLq",
         "vendor",
         "title",
+        "description_6dUkiD",
         "caption",
         "sku_Mgmkbi",
         "alireviews_aliexpress_reviews_product_title_app_block_XTK98T",
