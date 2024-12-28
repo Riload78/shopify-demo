@@ -158,6 +158,39 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_Nxet4P": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MYHGYg": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "{{ product.metafields.custom.details | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MYHGYg"
+      ],
+      "settings": {
+        "title": "Varias columnas",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage_4bT8En": {
       "type": "collage",
       "blocks": {
@@ -315,6 +348,7 @@
   "order": [
     "main",
     "multirow_dLKpYL",
+    "multicolumn_Nxet4P",
     "collage_4bT8En",
     "image-with-text",
     "17350435900d49dd1b",
