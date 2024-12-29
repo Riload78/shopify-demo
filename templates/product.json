@@ -158,6 +158,15 @@
     "multicolumn_Nxet4P": {
       "type": "multicolumn",
       "blocks": {
+        "column_3LBUcR": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "{{ product.description }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_MYHGYg": {
           "type": "column",
           "settings": {
@@ -169,6 +178,7 @@
         }
       },
       "block_order": [
+        "column_3LBUcR",
         "column_MYHGYg"
       ],
       "settings": {
