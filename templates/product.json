@@ -34,26 +34,6 @@
             "text_style": "subtitle"
           }
         },
-        "sku_Mgmkbi": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
-        },
-        "alireviews_aliexpress_reviews_product_title_app_block_XTK98T": {
-          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-title-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
-          "settings": {
-            "product_id": ""
-          }
-        },
-        "inventory_JTcUWr": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 10,
-            "show_inventory_quantity": true
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -95,9 +75,6 @@
         "title",
         "description_6dUkiD",
         "caption",
-        "sku_Mgmkbi",
-        "alireviews_aliexpress_reviews_product_title_app_block_XTK98T",
-        "inventory_JTcUWr",
         "price",
         "variant_picker",
         "quantity_selector",
