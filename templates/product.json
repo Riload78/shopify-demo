@@ -107,21 +107,20 @@
             "button_link": ""
           }
         },
-        "row_9Ab6pi": {
+        "row_crdTJh": {
           "type": "row",
           "settings": {
-            "image": "{{ product.featured_image }}",
-            "caption": "",
-            "heading": "",
-            "text": "{{ product.metafields.custom.large_description | metafield_tag }}",
-            "button_label": "",
+            "caption": "Leyenda",
+            "heading": "Fila",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "button_label": "Etiqueta de botón",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "row_hx9T4d",
-        "row_9Ab6pi"
+        "row_crdTJh"
       ],
       "settings": {
         "image_height": "medium",
