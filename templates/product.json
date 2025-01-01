@@ -41,6 +41,14 @@
             "swatch_shape": "circle"
           }
         },
+        "inventory_Y6gzHn": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -76,6 +84,7 @@
         "caption",
         "price",
         "variant_picker",
+        "inventory_Y6gzHn",
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-1",
@@ -106,7 +115,7 @@
           "settings": {
             "heading": "Características",
             "icon": "check_mark",
-            "row_content": "<p>dsadsdasdas</p>",
+            "row_content": "{{ product.metafields.custom.caracteristicas | metafield_tag }}",
             "page": ""
           }
         },
@@ -115,7 +124,7 @@
           "settings": {
             "heading": "Especificaciones",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.espcificaciones | metafield_tag }}",
             "page": ""
           }
         },
