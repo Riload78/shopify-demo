@@ -104,7 +104,7 @@
         "collapsible_row_Umd86r": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Fila desplegable",
+            "heading": "Características",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -113,7 +113,7 @@
         "collapsible_row_xBQebT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Fila desplegable",
+            "heading": "Especificaciones",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -122,16 +122,7 @@
         "collapsible_row_gPjYJR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Fila desplegable",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_NinRnb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Fila desplegable",
+            "heading": "Contenido del paquete",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -141,8 +132,7 @@
       "block_order": [
         "collapsible_row_Umd86r",
         "collapsible_row_xBQebT",
-        "collapsible_row_gPjYJR",
-        "collapsible_row_NinRnb"
+        "collapsible_row_gPjYJR"
       ],
       "settings": {
         "caption": "",
