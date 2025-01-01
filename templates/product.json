@@ -124,7 +124,7 @@
           "settings": {
             "heading": "Especificaciones",
             "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.espcificaciones | metafield_tag }}",
+            "row_content": "<p>{{ product.metafields.custom.espcificaciones | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -133,7 +133,7 @@
           "settings": {
             "heading": "Contenido del paquete",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.details | metafield_tag }}",
             "page": ""
           }
         }
