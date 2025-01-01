@@ -64,6 +64,10 @@
         "rating_r8izYz": {
           "type": "rating",
           "settings": {}
+        },
+        "description_7WbCmG": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
@@ -75,7 +79,8 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-1",
-        "rating_r8izYz"
+        "rating_r8izYz",
+        "description_7WbCmG"
       ],
       "settings": {
         "enable_sticky_info": true,
