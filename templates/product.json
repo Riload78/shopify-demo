@@ -106,7 +106,7 @@
           "settings": {
             "heading": "Características",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>dsadsdasdas</p>",
             "page": ""
           }
         },
