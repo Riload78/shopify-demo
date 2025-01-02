@@ -152,7 +152,7 @@
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/Sf20187e6ace4423eaab53bec073f06d0p.webp",
+        "image": "{{ product.metafields.custom.infografia01.value }}",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
