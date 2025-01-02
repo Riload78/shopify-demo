@@ -105,6 +105,9 @@
                     </h2>
                   </a>
                 </div>
+                {% if product.metafields.custom.subtitle %}
+                  <p>{{ product.metafields.custom.subtitle }}</p>
+                {% endif %}
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -191,12 +194,6 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
-              {%- when 'description' -%}
-                {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}
-                  </div>
-                {%- endif -%}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -668,6 +665,13 @@
           </a>
         </section>
       </div>
+    </div>
+    <div class="page-width ">
+      {%- if product.description != blank -%}
+        <div class="product__description rte quick-add-hidden">
+          {{ product.description }}
+        </div>
+      {%- endif -%}
     </div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
