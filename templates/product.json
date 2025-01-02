@@ -159,51 +159,6 @@
         "padding_bottom": 36
       }
     },
-    "multirow_dLKpYL": {
-      "type": "multirow",
-      "blocks": {
-        "row_hx9T4d": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.featured_image }}",
-            "caption": "",
-            "heading": "Descripción",
-            "text": "{{ product.metafields.custom.large_description | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_crdTJh": {
-          "type": "row",
-          "settings": {
-            "caption": "Leyenda",
-            "heading": "Fila",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_hx9T4d",
-        "row_crdTJh"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_4bT8En": {
       "type": "collage",
       "blocks": {
@@ -361,7 +316,6 @@
   "order": [
     "main",
     "collapsible_content_3Ym4JQ",
-    "multirow_dLKpYL",
     "collage_4bT8En",
     "image-with-text",
     "17350435900d49dd1b",
