@@ -18,7 +18,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Enlaces destacados",
-            "menu": "footer"
+            "menu": "menu-enlaces-destacados"
           }
         },
         "footer-1": {
