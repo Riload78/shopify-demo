@@ -45,7 +45,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "center",
-    "card_color_scheme": "scheme-2",
+    "card_color_scheme": "scheme-1",
     "card_border_thickness": 1,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -148,20 +148,6 @@
         "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-embed-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
         "disabled": false,
         "settings": {}
-      },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#242833",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6a6a6a",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
-        }
       }
     },
     "color_schemes": {
