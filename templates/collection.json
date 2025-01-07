@@ -14,8 +14,8 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
-        "show_collection_banner": false,
-        "show_collection_subcategories": false,
+        "show_collection_banner": true,
+        "show_collection_subcategories": true,
         "color_scheme": "scheme-1"
       }
     },
