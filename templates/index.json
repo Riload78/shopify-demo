@@ -81,6 +81,7 @@
     "banner_adidas_wamjhk": {
       "type": "banner-adidas",
       "settings": {
+        "image": "shopify://shop_images/adidas-banner.jpg",
         "alt": "Adidas",
         "title": "Demo Titulo Principal del banner",
         "subtitle": "Visita niestro categorias más destacadas",
