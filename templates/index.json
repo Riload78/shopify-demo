@@ -16,7 +16,6 @@
           "type": "slide",
           "settings": {
             "slide_text": "Titulo Slide 01",
-            "slide_image": "shopify://shop_images/slider-02.png",
             "link_text": "Ver más",
             "url_link": "shopify://products/the-collection-snowboard-hydrogen"
           }
@@ -25,7 +24,6 @@
           "type": "slide",
           "settings": {
             "slide_text": "Titulo 02",
-            "slide_image": "shopify://shop_images/slider-01.jpg",
             "link_text": "Ver más",
             "url_link": "shopify://pages/contact"
           }
@@ -70,19 +68,25 @@
         "carousel_tabs_GAkiF7"
       ],
       "settings": {
-        "title_carousel": "Productos destacados"
+        "title_carousel": "Productos destacados",
+        "heading_size": "h1",
+        "content_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "",
+        "tabs_button_alignment": "left"
       }
     },
     "banner_adidas_wamjhk": {
       "type": "banner-adidas",
       "settings": {
-        "image": "shopify://shop_images/adidas-banner.jpg",
         "alt": "Adidas",
         "title": "Demo Titulo Principal del banner",
         "subtitle": "Visita niestro categorias más destacadas",
         "cta_link_1": "shopify://collections",
         "cta_button_text_1": "Nuestras colecciones",
-        "cta_link_2": "shopify://products/the-collection-snowboard-liquid",
+        "cta_link_2": "shopify://collections",
         "cta_button_text_2": "Vás visto",
         "cta_link_3": "shopify://blogs/news",
         "cta_button_text_3": "Visita nuestro blog",
