@@ -33,6 +33,7 @@
         "slide_MPTizC",
         "slide_B46bm3"
       ],
+      "disabled": true,
       "settings": {
         "text": "Swiper Slider"
       }
@@ -67,6 +68,7 @@
         "carousel_tabs_YipPFr",
         "carousel_tabs_GAkiF7"
       ],
+      "disabled": true,
       "settings": {
         "title_carousel": "Productos destacados",
         "heading_size": "h1",
@@ -80,6 +82,7 @@
     },
     "banner_adidas_wamjhk": {
       "type": "banner-adidas",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/adidas-banner.jpg",
         "alt": "Adidas",
@@ -129,6 +132,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
