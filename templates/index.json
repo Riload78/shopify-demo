@@ -33,6 +33,7 @@
         "slide_MPTizC",
         "slide_B46bm3"
       ],
+      "disabled": true,
       "settings": {
         "text": "Swiper Slider"
       }
@@ -67,6 +68,7 @@
         "carousel_tabs_YipPFr",
         "carousel_tabs_GAkiF7"
       ],
+      "disabled": true,
       "settings": {
         "title_carousel": "Productos destacados",
         "heading_size": "h1",
@@ -80,6 +82,7 @@
     },
     "banner_adidas_wamjhk": {
       "type": "banner-adidas",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/adidas-banner.jpg",
         "alt": "Adidas",
@@ -129,6 +132,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -175,7 +179,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Productos destacados",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -184,9 +188,9 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -197,59 +201,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -314,8 +265,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "collage",
-    "video",
     "multicolumn"
   ]
 }
