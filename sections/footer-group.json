@@ -22,6 +22,7 @@
         },
         "brand_information_J9q7nr": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "show_social": true
           }
