@@ -167,7 +167,7 @@
               <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
             {%- endif -%}
             {%- comment -%} Render sku snippet {%- endcomment -%}
-            {% render 'sku', product: card_product, sku_class: 'sku-wrapper' %}
+            {% comment %}  {% render 'sku', product: card_product, sku_class: 'sku-wrapper' %} {% endcomment %}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
