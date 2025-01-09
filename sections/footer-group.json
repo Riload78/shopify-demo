@@ -14,27 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_mbrBi9": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": false
-          }
-        },
-        "brand_information_J9q7nr": {
-          "type": "brand_information",
-          "disabled": true,
-          "settings": {
-            "show_social": true
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -48,14 +27,18 @@
             "heading": "Información",
             "menu": "footer"
           }
+        },
+        "brand_information_mbrBi9": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
         }
       },
       "block_order": [
-        "brand_information_mbrBi9",
-        "brand_information_J9q7nr",
-        "footer-2",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "brand_information_mbrBi9"
       ],
       "settings": {
         "color_scheme": "scheme-2",
