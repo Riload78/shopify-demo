@@ -152,14 +152,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Funcionalidad y estilo que se adaptan a tu vida",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Destaca la combinación de diseño moderno con practicidad, ofreciendo utensilios y elementos decorativos que no solo embellecen el espacio, sino que también mejoran la eficiencia en las tareas diarias.</p>"
           }
         }
       },
