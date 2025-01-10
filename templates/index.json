@@ -219,6 +219,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/return.svg",
             "title": "Devolución garantizada",
             "text": "<p>Avísanos en el caso de cualquier desperfecto en los productos recibidos.</p>",
             "link_label": "",
@@ -228,6 +229,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/secure.svg",
             "title": "Pago seguro",
             "text": "<p>Compra de forma segura con nuestro certificado SSL con cifrado de datos de 4096 bits</p>",
             "link_label": "",
