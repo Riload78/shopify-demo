@@ -60,6 +60,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "icon_with_text_e66BwP": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "heading_1": "Pago seguro",
+            "icon_2": "return",
+            "heading_2": "Encabezado",
+            "icon_3": "truck",
+            "heading_3": "Envíos gratis en 10-12 días"
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -87,6 +99,7 @@
         "inventory_Y6gzHn",
         "quantity_selector",
         "buy_buttons",
+        "icon_with_text_e66BwP",
         "collapsible-row-1",
         "rating_r8izYz",
         "description_7WbCmG"
