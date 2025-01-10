@@ -122,6 +122,40 @@
         "padding_bottom": 40
       }
     },
+    "multirow_Nt86d9": {
+      "type": "multirow",
+      "blocks": {
+        "row_mCgkGi": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sbeae48b9bf424e3d966d97970e9d8ae49_9790c979-6b61-4743-8b53-e20cb1869014.webp",
+            "caption": "Leyenda",
+            "heading": "Ambiente fresco y relajante en tu hogar",
+            "text": "<p>Transforma tu espacio en un oasis de calma y bienestar. Disfruta de la frescura y serenidad que mereces cada día.</p>",
+            "button_label": "Ver producto",
+            "button_link": "shopify://products/humidificador-dual-ultrasonico"
+          }
+        }
+      },
+      "block_order": [
+        "row_mCgkGi"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -184,6 +218,7 @@
     "slider_banner",
     "featured_collection",
     "rich_text",
+    "multirow_Nt86d9",
     "multicolumn"
   ]
 }
