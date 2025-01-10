@@ -28,22 +28,9 @@
     },
     "slider_banner": {
       "type": "custom-slider",
-      "blocks": {
-        "slide_MPTizC": {
-          "type": "slide",
-          "settings": {
-            "slide_text": "",
-            "slide_image": "shopify://shop_images/home-banner-01.jpg",
-            "link_text": "",
-            "url_link": "shopify://products/the-collection-snowboard-hydrogen"
-          }
-        }
-      },
-      "block_order": [
-        "slide_MPTizC"
-      ],
+      "disabled": true,
       "settings": {
-        "text": "Swiper Slider"
+        "text": ""
       }
     },
     "carrousel_tabs_rejjew": {
