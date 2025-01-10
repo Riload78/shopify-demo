@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "banner_adidas_hBGRxr": {
+      "type": "banner-adidas",
+      "settings": {
+        "image": "shopify://shop_images/home-banner-01.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "cta_link_1": "shopify://products/humidificador-dual-ultrasonico",
+        "cta_button_text_1": "VER PRODUCTOS",
+        "cta_link_2": "",
+        "cta_button_text_2": "Shop Now",
+        "cta_link_3": "",
+        "cta_button_text_3": "Shop Now",
+        "vertical_align": "bottom",
+        "horizontal_align": "center"
+      }
+    },
     "slider_banner": {
       "type": "custom-slider",
       "blocks": {
@@ -253,6 +270,7 @@
     }
   },
   "order": [
+    "banner_adidas_hBGRxr",
     "slider_banner",
     "carrousel_tabs_rejjew",
     "banner_adidas_wamjhk",
