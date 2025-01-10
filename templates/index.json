@@ -64,36 +64,6 @@
         "text": ""
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Funcionalidad y estilo que se adaptan a tu vida",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Destaca la combinación de diseño moderno con practicidad, ofreciendo utensilios y elementos decorativos que no solo embellecen el espacio, sino que también mejoran la eficiencia en las tareas diarias.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -120,6 +90,36 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Funcionalidad y estilo que se adaptan a tu vida",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Destaca la combinación de diseño moderno con practicidad, ofreciendo utensilios y elementos decorativos que no solo embellecen el espacio, sino que también mejoran la eficiencia en las tareas diarias.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "multicolumn": {
