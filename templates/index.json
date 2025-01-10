@@ -210,8 +210,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Envíos seguros",
+            "text": "<p>Nuestra prioridad es que tu compra llegue en perfectas condiciones.</p>",
             "link_label": "",
             "link": ""
           }
@@ -219,8 +219,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Devolución garantizada",
+            "text": "<p>Avísanos en el caso de cualquier desperfecto en los productos recibidos.</p>",
             "link_label": "",
             "link": ""
           }
@@ -228,8 +228,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Pago seguro",
+            "text": "<p>Compra de forma segura con nuestro certificado SSL con cifrado de datos de 4096 bits</p>",
             "link_label": "",
             "link": ""
           }
