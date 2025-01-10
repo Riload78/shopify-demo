@@ -64,10 +64,10 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "heart",
-            "heading_1": "Pago seguro",
+            "icon_1": "lock",
+            "heading_1": "Compra de forma segura con nuestro certificado SSL con cifrado de datos de 4096 bits",
             "icon_2": "return",
-            "heading_2": "Encabezado",
+            "heading_2": "Devolución garantizada de cualquier pedido durante 15 días en caso de algún defecto",
             "icon_3": "truck",
             "heading_3": "Envíos gratis en 10-12 días"
           }
