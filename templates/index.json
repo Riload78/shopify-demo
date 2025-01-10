@@ -64,114 +64,6 @@
         "text": ""
       }
     },
-    "carrousel_tabs_rejjew": {
-      "type": "carrousel-tabs",
-      "blocks": {
-        "carousel_tabs_PcMxfq": {
-          "type": "carousel-tabs",
-          "settings": {
-            "tab_title": "Tabs 01",
-            "tab_collection": "automated-collection"
-          }
-        },
-        "carousel_tabs_YipPFr": {
-          "type": "carousel-tabs",
-          "settings": {
-            "tab_title": "Tab 02",
-            "tab_collection": "destacados"
-          }
-        },
-        "carousel_tabs_GAkiF7": {
-          "type": "carousel-tabs",
-          "settings": {
-            "tab_title": "Tab 03",
-            "tab_collection": "hydrogen"
-          }
-        }
-      },
-      "block_order": [
-        "carousel_tabs_PcMxfq",
-        "carousel_tabs_YipPFr",
-        "carousel_tabs_GAkiF7"
-      ],
-      "disabled": true,
-      "settings": {
-        "title_carousel": "Productos destacados",
-        "heading_size": "h1",
-        "content_alignment": "center",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "color_scheme": "",
-        "tabs_button_alignment": "left"
-      }
-    },
-    "banner_adidas_wamjhk": {
-      "type": "banner-adidas",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/adidas-banner.jpg",
-        "alt": "Adidas",
-        "title": "Demo Titulo Principal del banner",
-        "subtitle": "Visita niestro categorias más destacadas",
-        "cta_link_1": "shopify://collections",
-        "cta_button_text_1": "Nuestras colecciones",
-        "cta_link_2": "shopify://collections",
-        "cta_button_text_2": "Vás visto",
-        "cta_link_3": "shopify://blogs/news",
-        "cta_button_text_3": "Visita nuestro blog",
-        "vertical_align": "bottom",
-        "horizontal_align": "left"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -290,11 +182,8 @@
   "order": [
     "image_banner_myFzcf",
     "slider_banner",
-    "carrousel_tabs_rejjew",
-    "banner_adidas_wamjhk",
-    "image_banner",
-    "rich_text",
     "featured_collection",
+    "rich_text",
     "multicolumn"
   ]
 }
