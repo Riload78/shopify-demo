@@ -210,6 +210,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/delivery.svg",
             "title": "Envíos seguros",
             "text": "<p>Nuestra prioridad es que tu compra llegue en perfectas condiciones.</p>",
             "link_label": "",
