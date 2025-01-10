@@ -9,21 +9,52 @@
  */
 {
   "sections": {
-    "banner_adidas_hBGRxr": {
-      "type": "banner-adidas",
+    "image_banner_myFzcf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_EWcWdW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspirate en nuestra colección",
+            "heading_size": "h1"
+          }
+        },
+        "text_xhrmcb": {
+          "type": "text",
+          "settings": {
+            "text": "Funcionalidad y estilo para tu vida",
+            "text_style": "body"
+          }
+        },
+        "buttons_7ciQy7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Ver colección",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EWcWdW",
+        "text_xhrmcb",
+        "buttons_7ciQy7"
+      ],
       "settings": {
-        "image": "shopify://shop_images/home-banner-01.jpg",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "cta_link_1": "shopify://products/humidificador-dual-ultrasonico",
-        "cta_button_text_1": "VER PRODUCTOS",
-        "cta_link_2": "",
-        "cta_button_text_2": "Shop Now",
-        "cta_link_3": "",
-        "cta_button_text_3": "Shop Now",
-        "vertical_align": "bottom",
-        "horizontal_align": "center"
+        "image": "shopify://shop_images/home-banner-02.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "slider_banner": {
@@ -257,7 +288,7 @@
     }
   },
   "order": [
-    "banner_adidas_hBGRxr",
+    "image_banner_myFzcf",
     "slider_banner",
     "carrousel_tabs_rejjew",
     "banner_adidas_wamjhk",
