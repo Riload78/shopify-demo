@@ -186,6 +186,7 @@
       "block_order": [
         "alireviews_aliexpress_reviews_product_app_block_VQqwkB"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
