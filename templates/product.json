@@ -85,6 +85,12 @@
             "heading_3": "Envíos gratis en 10-12 días"
           }
         },
+        "share_dU3w6r": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -114,6 +120,7 @@
         "buy_buttons",
         "complementary_9EHPeB",
         "icon_with_text_e66BwP",
+        "share_dU3w6r",
         "collapsible-row-1",
         "rating_r8izYz",
         "description_7WbCmG"
