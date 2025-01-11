@@ -85,15 +85,6 @@
             "heading_3": "Envíos gratis en 10-12 días"
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "rating_r8izYz": {
           "type": "rating",
           "settings": {}
@@ -114,7 +105,6 @@
         "buy_buttons",
         "complementary_PPYLLF",
         "icon_with_text_e66BwP",
-        "collapsible-row-1",
         "rating_r8izYz",
         "description_7WbCmG"
       ],
