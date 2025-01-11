@@ -60,6 +60,19 @@
             "show_gift_card_recipient": true
           }
         },
+        "complementary_9EHPeB": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Te puede interesar",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "icon_with_text_e66BwP": {
           "type": "icon-with-text",
           "settings": {
@@ -99,6 +112,7 @@
         "inventory_Y6gzHn",
         "quantity_selector",
         "buy_buttons",
+        "complementary_9EHPeB",
         "icon_with_text_e66BwP",
         "collapsible-row-1",
         "rating_r8izYz",
