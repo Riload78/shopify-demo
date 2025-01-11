@@ -85,6 +85,19 @@
           "type": "rating",
           "settings": {}
         },
+        "complementary_PPYLLF": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Combina bien con",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "description_7WbCmG": {
           "type": "description",
           "settings": {}
@@ -102,6 +115,7 @@
         "icon_with_text_e66BwP",
         "collapsible-row-1",
         "rating_r8izYz",
+        "complementary_PPYLLF",
         "description_7WbCmG"
       ],
       "settings": {
@@ -174,18 +188,6 @@
     },
     "17350435900d49dd1b": {
       "type": "apps",
-      "blocks": {
-        "alireviews_aliexpress_reviews_product_app_block_VQqwkB": {
-          "type": "shopify://apps/alireviews-aliexpress-reviews/blocks/product-app-block/ed1f8756-3ef0-4b52-b2bc-4add334ee46d",
-          "settings": {
-            "product": "",
-            "product_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "alireviews_aliexpress_reviews_product_app_block_VQqwkB"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": true
