@@ -63,7 +63,7 @@
         "complementary_PPYLLF": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Prodía interesarte",
+            "block_heading": "Prodría interesarte",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
