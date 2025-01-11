@@ -24,6 +24,23 @@
             <p class="product__title">{{ product.title }}</p>
             <p class="product__price">{{ product.price | money }}</p>
           </a>
+          {%- if product.variants.size == 1 -%}
+            <!-- Botón para producto simple -->
+            <button
+              class="btn-add-to-cart"
+              data-product-id="{{ product.variants.first.id }}"
+            >
+              Añadir al carrito
+            </button>
+          {%- else -%}
+            <!-- Botón para producto configurable -->
+            <button
+              class="btn-select-options"
+              data-product-url="{{ product.url }}"
+            >
+              Seleccionar opciones
+            </button>
+          {%- endif -%}
         </li>
       {%- endfor -%}
     </ul>
