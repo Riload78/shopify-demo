@@ -12,5 +12,16 @@
   "context": {
     "market": "international"
   },
-  "sections": {}
+  "sections": {
+    "newsletter_Ktnb83": {
+      "settings": {},
+      "blocks": {
+        "heading_bEe9V7": {
+          "settings": {
+            "heading": "Subscribe to our newsletter"
+          }
+        }
+      }
+    }
+  }
 }
