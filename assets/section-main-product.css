@@ -240,6 +240,10 @@ product-info {
   font-size: calc(var(--font-heading-scale) * 4rem);
 }
 
+.product__description h3 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
 .product__text {
   margin-bottom: 0;
 }
