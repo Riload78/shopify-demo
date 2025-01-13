@@ -25,8 +25,19 @@
           "settings": {
             "text": "Functionality and style for your home"
           }
+        },
+        "buttons_7ciQy7": {
+          "settings": {
+            "button_label_1": "See collections"
+          }
         }
       }
+    },
+    "featured_collection": {
+      "settings": {
+        "title": "Featured"
+      },
+      "blocks": {}
     }
   }
 }
