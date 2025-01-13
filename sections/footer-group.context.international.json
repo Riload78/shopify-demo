@@ -12,21 +12,5 @@
   "context": {
     "market": "international"
   },
-  "sections": {
-    "newsletter_Ktnb83": {
-      "settings": {},
-      "blocks": {
-        "heading_bEe9V7": {
-          "settings": {
-            "heading": "Subscribe to our newsletter"
-          }
-        },
-        "paragraph_Lfh6CW": {
-          "settings": {
-            "text": "<p>Be the first to discover new collections and exclusive offers</p>"
-          }
-        }
-      }
-    }
-  }
+  "sections": {}
 }
