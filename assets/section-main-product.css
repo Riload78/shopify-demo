@@ -241,7 +241,7 @@ product-info {
 }
 
 .product__description h3 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
 .product__text {
