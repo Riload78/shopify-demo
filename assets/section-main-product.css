@@ -232,8 +232,12 @@ product-info {
 }
 
 .product__description {
-  margin   : 4rem auto;
+  margin   : 6vh auto;
   max-width: 800px;
+}
+
+.product__description h2 {
+  font-size: calc(var(--font-heading-scale) * 4rem);
 }
 
 .product__text {
