@@ -38,6 +38,21 @@
         "title": "Featured"
       },
       "blocks": {}
+    },
+    "rich_text": {
+      "settings": {},
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Functionality and style that fit your lifestyle"
+          }
+        },
+        "text": {
+          "settings": {
+            "text": "<p>It highlights the blend of modern design with practicality, offering utensils and decorative items that not only beautify the space but also enhance efficiency in daily tasks.</p>"
+          }
+        }
+      }
     }
   }
 }
