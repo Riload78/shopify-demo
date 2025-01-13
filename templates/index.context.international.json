@@ -12,5 +12,16 @@
   "context": {
     "market": "international"
   },
-  "sections": {}
+  "sections": {
+    "image_banner_myFzcf": {
+      "settings": {},
+      "blocks": {
+        "heading_EWcWdW": {
+          "settings": {
+            "heading": "<strong>Get inspired by our collection</strong>"
+          }
+        }
+      }
+    }
+  }
 }
