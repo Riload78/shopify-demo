@@ -53,6 +53,29 @@
           }
         }
       }
+    },
+    "multicolumn": {
+      "settings": {},
+      "blocks": {
+        "column1": {
+          "settings": {
+            "title": "Secure shipping",
+            "text": "<p>Our priority is to ensure your purchase arrives in perfect condition</p>"
+          }
+        },
+        "column2": {
+          "settings": {
+            "title": "Guaranteed returns",
+            "text": "<p>Let us know if there are any damages to the products you received</p>"
+          }
+        },
+        "column3": {
+          "settings": {
+            "title": "Secure payment",
+            "text": "<p>Shop securely with our SSL certificate featuring 4096-bit data encryption.</p>"
+          }
+        }
+      }
     }
   }
 }
