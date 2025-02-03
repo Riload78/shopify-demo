@@ -11,42 +11,10 @@
   "sections": {
     "image_banner_myFzcf": {
       "type": "image-banner",
-      "blocks": {
-        "heading_EWcWdW": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Inspirate en nuestra colección</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_xhrmcb": {
-          "type": "text",
-          "settings": {
-            "text": "Funcionalidad y estilo para tu hogar",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_7ciQy7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Ver colección",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_EWcWdW",
-        "text_xhrmcb",
-        "buttons_7ciQy7"
-      ],
       "settings": {
-        "image": "shopify://shop_images/home-banner-02.webp",
+        "image": "shopify://shop_images/banner-principal.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
