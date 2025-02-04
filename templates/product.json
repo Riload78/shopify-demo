@@ -23,21 +23,6 @@
           "type": "title",
           "settings": {}
         },
-        "loox_reviews_loox_rating_QtfRNG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "contentSize": 16,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "",
-            "showAllReviews": false,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -105,6 +90,13 @@
           "type": "rating",
           "settings": {}
         },
+        "popup_9nnBai": {
+          "type": "popup",
+          "settings": {
+            "text": "Texto del enlace emergente",
+            "page": "contact"
+          }
+        },
         "description_7WbCmG": {
           "type": "description",
           "settings": {}
@@ -113,7 +105,6 @@
       "block_order": [
         "vendor",
         "title",
-        "loox_reviews_loox_rating_QtfRNG",
         "caption",
         "price",
         "variant_picker",
@@ -123,6 +114,7 @@
         "complementary_PPYLLF",
         "icon_with_text_e66BwP",
         "rating_r8izYz",
+        "popup_9nnBai",
         "description_7WbCmG"
       ],
       "settings": {
@@ -195,22 +187,6 @@
     },
     "1737580146d51688a8": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_y6BBm6": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_y6BBm6"
-      ],
       "settings": {
         "include_margins": true
       }
