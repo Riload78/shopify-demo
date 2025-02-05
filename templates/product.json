@@ -92,8 +92,9 @@
         },
         "popup_9nnBai": {
           "type": "popup",
+          "source": "{{ product.metafields.custom.guia_de_tallas.value }}",
           "settings": {
-            "text": "",
+            "text": "{{ product.metafields.custom.guia_de_tallas.value.g64000.value }}",
             "page": "contact"
           }
         },
