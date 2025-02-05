@@ -93,7 +93,7 @@
         "popup_9nnBai": {
           "type": "popup",
           "settings": {
-            "text": "Texto del enlace emergente",
+            "text": "",
             "page": "contact"
           }
         },
