@@ -63,21 +63,30 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
+        "caption_FJ9cC7": {
+          "type": "caption",
+          "settings": {
+            "caption": "git commit -m \"Fixing debug\"",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Funcionalidad y estilo que se adaptan a tu vida",
+            "heading": "Tu workspace merece ser tan <em>geek</em> como tú",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Destaca la combinación de diseño moderno con practicidad, ofreciendo utensilios y elementos decorativos que no solo embellecen el espacio, sino que también mejoran la eficiencia en las tareas diarias.</p>"
+            "text": "<p>Descubre los gadgets y productos que harán de tu workspace el lugar más <em>geek</em></p><p>¡Programar nunca fue tan cool!</p>"
           }
         }
       },
       "block_order": [
+        "caption_FJ9cC7",
         "heading",
         "text"
       ],
