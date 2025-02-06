@@ -41,6 +41,14 @@
             "swatch_shape": "circle"
           }
         },
+        "popup_9nnBai": {
+          "type": "popup",
+          "source": "{{ product.metafields.custom.guia_de_tallas.value }}",
+          "settings": {
+            "text": "{{ product.metafields.custom.guia_de_tallas.value.label.value }}",
+            "page": "{{ product.metafields.custom.guia_de_tallas.value.page.value }}"
+          }
+        },
         "inventory_Y6gzHn": {
           "type": "inventory",
           "disabled": true,
@@ -90,14 +98,6 @@
           "type": "rating",
           "settings": {}
         },
-        "popup_9nnBai": {
-          "type": "popup",
-          "source": "{{ product.metafields.custom.guia_de_tallas.value }}",
-          "settings": {
-            "text": "{{ product.metafields.custom.guia_de_tallas.value.label.value }}",
-            "page": "{{ product.metafields.custom.guia_de_tallas.value.page.value }}"
-          }
-        },
         "description_7WbCmG": {
           "type": "description",
           "settings": {}
@@ -109,13 +109,13 @@
         "caption",
         "price",
         "variant_picker",
+        "popup_9nnBai",
         "inventory_Y6gzHn",
         "quantity_selector",
         "buy_buttons",
         "complementary_PPYLLF",
         "icon_with_text_e66BwP",
         "rating_r8izYz",
-        "popup_9nnBai",
         "description_7WbCmG"
       ],
       "settings": {
