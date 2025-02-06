@@ -45,7 +45,7 @@
           "type": "popup",
           "source": "{{ product.metafields.custom.guia_de_tallas.value }}",
           "settings": {
-            "text": "{{ product.metafields.custom.guia_de_tallas.value.label.value }}",
+            "text": "Guía de tallas",
             "page": "{{ product.metafields.custom.guia_de_tallas.value.page.value }}"
           }
         },
