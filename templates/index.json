@@ -112,10 +112,22 @@
             "button_label": "Ver producto",
             "button_link": "shopify://products/lampara-de-amor-acrilica-3d"
           }
+        },
+        "row_UeMmA4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/banner-change-world.webp",
+            "caption": "Leyenda",
+            "heading": "Fila",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "row_mCgkGi"
+        "row_mCgkGi",
+        "row_UeMmA4"
       ],
       "settings": {
         "image_height": "adapt",
