@@ -92,9 +92,10 @@
         },
         "popup_9nnBai": {
           "type": "popup",
+          "source": "{{ product.metafields.custom.guia_de_tallas.value }}",
           "settings": {
-            "text": "",
-            "page": "contact"
+            "text": "{{ product.metafields.custom.guia_de_tallas.value.label.value }}",
+            "page": "{{ metaobjects.listado_de_tallas[\"g-5000\"].page.value }}"
           }
         },
         "description_7WbCmG": {
