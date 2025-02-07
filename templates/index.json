@@ -151,9 +151,9 @@
         "loox_reviews_loox_testimonial_carousel_section_cAkCew": {
           "type": "shopify://apps/loox-reviews/blocks/loox-testimonial-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "maxWidth": 1100,
+            "maxWidth": 620,
             "desktopFontSize": 32,
-            "mobileFontSize": 20,
+            "mobileFontSize": 16,
             "maxNumberOfCharacters": 100,
             "quoteMarkIcon": "style-1",
             "reviewerNameColor": "#000000",
