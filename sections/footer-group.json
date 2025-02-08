@@ -59,25 +59,17 @@
             "heading": "Enlaces destacados",
             "menu": "destacados"
           }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Información",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "brand_information_mbrBi9",
-        "footer-0",
-        "footer-1"
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
