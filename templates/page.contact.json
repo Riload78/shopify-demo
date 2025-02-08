@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,11 +16,27 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_wUjg3e": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/banner-chica-programando.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "¿Tienes preguntas, necesitas ayuda o simplemente quieres saber más sobre nuestros productos? Completa el formulario y nos pondremos en contacto contigo lo antes posible.¡Estamos aquí para ayudarte!",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -20,6 +45,7 @@
   },
   "order": [
     "main",
+    "image_banner_wUjg3e",
     "form"
   ]
 }
