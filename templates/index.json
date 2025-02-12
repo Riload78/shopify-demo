@@ -11,8 +11,20 @@
   "sections": {
     "image_banner_myFzcf": {
       "type": "image-banner",
+      "blocks": {
+        "heading_DtTef4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regalos para Programadores: Camisetas, Mugs y Tazas Térmicas Geek",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DtTef4"
+      ],
       "settings": {
-        "image": "shopify://shop_images/banner-descuento-kokecraft.webp",
+        "image": "shopify://shop_images/banner-nueva-coleccion.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
