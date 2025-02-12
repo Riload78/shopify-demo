@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_PXLJ6P": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 class=\"visually-hidden\">Regalos para Programadores: Camisetas, Mugs y Tazas Térmicas Geek</h1>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_myFzcf": {
       "type": "image-banner",
       "blocks": {
@@ -54,9 +45,17 @@
         "show_text_below": true
       }
     },
+    "custom_liquid_PXLJ6P": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 class=\"no-space visually-hidden\">Regalos para Programadores: Camisetas, Mugs y Tazas Térmicas Geek</h1>\n<style>\n.no-space{margin:0;}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "slider_banner": {
       "type": "custom-slider",
-      "disabled": true,
       "settings": {
         "text": ""
       }
@@ -282,8 +281,8 @@
     }
   },
   "order": [
-    "custom_liquid_PXLJ6P",
     "image_banner_myFzcf",
+    "custom_liquid_PXLJ6P",
     "slider_banner",
     "featured_collection",
     "rich_text",
