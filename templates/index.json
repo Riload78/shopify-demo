@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "custom_liquid_LLxnWX": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 class=\"hidden\">egalos geek para programadores: camisetas, tazas térmicas, mugs y más accesorios tech</h1>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_myFzcf": {
       "type": "image-banner",
       "blocks": {
@@ -18,10 +27,18 @@
             "heading": "Regalos para Programadores: Camisetas, Mugs y Tazas Térmicas Geek",
             "heading_size": "h1"
           }
+        },
+        "text_GPnUTD": {
+          "type": "text",
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "heading_DtTef4"
+        "heading_DtTef4",
+        "text_GPnUTD"
       ],
       "settings": {
         "image": "shopify://shop_images/banner-nueva-coleccion.webp",
@@ -265,6 +282,7 @@
     }
   },
   "order": [
+    "custom_liquid_LLxnWX",
     "image_banner_myFzcf",
     "slider_banner",
     "featured_collection",
