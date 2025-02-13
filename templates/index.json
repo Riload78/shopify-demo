@@ -152,11 +152,23 @@
             "button_label": "Cambia el mundo con estilo",
             "button_link": "shopify://products/camiseta-programador-codigo"
           }
+        },
+        "row_iVe9P7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/banner-camiseta-merge-master.webp",
+            "caption": "Pull, push, ride and repeat",
+            "heading": "Código limpio, espíritu rebelde",
+            "text": "<p>Tu código, tu ruta, tu estilo. Fork & Ride!</p>",
+            "button_label": "Git push origin main",
+            "button_link": "shopify://products/camiseta-programador-git"
+          }
         }
       },
       "block_order": [
         "row_mCgkGi",
-        "row_UeMmA4"
+        "row_UeMmA4",
+        "row_iVe9P7"
       ],
       "settings": {
         "image_height": "adapt",
