@@ -223,7 +223,7 @@
           "type": "button",
           "settings": {
             "button_label": "Proponnos tu diseño",
-            "button_link": "",
+            "button_link": "shopify://pages/personaliza-tu-diseno-a-tu-estilo",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
