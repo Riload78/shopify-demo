@@ -206,7 +206,7 @@
           "type": "button",
           "settings": {
             "button_label": "Crea tu diseño ahora",
-            "button_link": "shopify://pages/personaliza-tu-diseno-a-tu-estilo",
+            "button_link": "shopify://pages/personaliza-tu-diseno",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
