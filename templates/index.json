@@ -128,48 +128,6 @@
         "padding_bottom": 40
       }
     },
-    "rich_text_83pYY4": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_x6EAJh": {
-          "type": "heading",
-          "settings": {
-            "heading": "¡Crea Tu Diseño Personalizado con Nosotros!",
-            "heading_size": "h1"
-          }
-        },
-        "text_FDYR99": {
-          "type": "text",
-          "settings": {
-            "text": "<p>¿Tienes una idea única para un diseño? ¡Nos encantaría ayudarte a llevarla a la realidad! Ya sea un diseño personal para ti o una idea innovadora que quieras compartir, estamos aquí para hacerlo posible.</p><p>Haznos saber lo que tienes en mente y trabajaremos contigo para crear algo exclusivo que se ajuste a tu visión. ¡Estamos listos para hacer realidad tu diseño perfecto!</p>"
-          }
-        },
-        "button_LN4AJg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Crea tu diseño ahora",
-            "button_link": "shopify://pages/personaliza-tu-diseno-a-tu-estilo",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_x6EAJh",
-        "text_FDYR99",
-        "button_LN4AJg"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_Nt86d9": {
       "type": "multirow",
       "blocks": {
@@ -226,6 +184,48 @@
         "mobile_content_alignment": "left",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "rich_text_83pYY4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x6EAJh": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡Crea Tu Diseño Personalizado!",
+            "heading_size": "h1"
+          }
+        },
+        "text_FDYR99": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¿Tienes una idea única para un diseño? ¡Nos encantaría ayudarte a llevarla a la realidad! Ya sea un diseño personal para ti o una idea innovadora que quieras compartir, estamos aquí para hacerlo posible.</p><p>Haznos saber lo que tienes en mente y trabajaremos contigo para crear algo exclusivo que se ajuste a tu visión. ¡Estamos listos para hacer realidad tu diseño perfecto!</p>"
+          }
+        },
+        "button_LN4AJg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Crea tu diseño ahora",
+            "button_link": "shopify://pages/personaliza-tu-diseno-a-tu-estilo",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_x6EAJh",
+        "text_FDYR99",
+        "button_LN4AJg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_blog_7GRyfM": {
