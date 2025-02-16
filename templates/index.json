@@ -222,7 +222,7 @@
         "button_LN4AJg": {
           "type": "button",
           "settings": {
-            "button_label": "Proponnos tu diseño",
+            "button_label": "Crea tu diseño ahora",
             "button_link": "shopify://pages/personaliza-tu-diseno-a-tu-estilo",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -239,7 +239,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
