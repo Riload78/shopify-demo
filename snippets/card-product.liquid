@@ -171,9 +171,9 @@
             <!-- Loox rating -->
             <div
               class="loox-rating"
-              data-id="{{ product.id }}"
-              data-rating="{{ product.metafields.loox.avg_rating }}"
-              data-raters="{{ product.metafields.loox.num_reviews }}"
+              data-id="{{ card_product.id }}"
+              data-rating="{{ card_product.metafields.loox.avg_rating }}"
+              data-raters="{{ card_product.metafields.loox.num_reviews }}"
             ></div>
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
@@ -624,9 +624,9 @@
             <!-- Loox rating -->
             <div
               class="loox-rating"
-              data-id="{{ product.id }}"
-              data-rating="{{ product.metafields.loox.avg_rating }}"
-              data-raters="{{ product.metafields.loox.num_reviews }}"
+              data-id="{{ card_product.id }}"
+              data-rating="{{ card_product.metafields.loox.avg_rating }}"
+              data-raters="{{ card_product.metafields.loox.num_reviews }}"
             ></div>
 
             {%- if show_vendor -%}
