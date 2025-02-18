@@ -168,6 +168,7 @@
             {%- endif -%}
             {%- comment -%} Render sku snippet {%- endcomment -%}
             {% comment %}  {% render 'sku', product: card_product, sku_class: 'sku-wrapper' %} {% endcomment %}
+            <!-- Loox rating -->
             <div
               class="loox-rating"
               data-id="{{ product.id }}"
@@ -620,6 +621,14 @@
             </a>
           </h3>
           <div class="card-information">
+            <!-- Loox rating -->
+            <div
+              class="loox-rating"
+              data-id="{{ product.id }}"
+              data-rating="{{ product.metafields.loox.avg_rating }}"
+              data-raters="{{ product.metafields.loox.num_reviews }}"
+            ></div>
+
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
