@@ -16,55 +16,71 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_AEqYcC": {
-      "type": "image-with-text",
+    "featured_product_FcwKqz": {
+      "type": "featured-product",
       "blocks": {
-        "heading_Bb6Dw3": {
-          "type": "heading",
+        "text_zUEDHe": {
+          "type": "text",
           "settings": {
-            "heading": "Imagen con texto",
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_HmwCPq": {
+          "type": "title",
+          "settings": {
             "heading_size": "h1"
           }
         },
-        "text_PPMGej": {
-          "type": "text",
+        "price_yCXYhU": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_rgWr8D": {
+          "type": "variant_picker",
           "settings": {
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "text_style": "body"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
-        "button_inMQef": {
-          "type": "button",
+        "quantity_selector_qfxJCD": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_qx8Py3": {
+          "type": "buy_buttons",
           "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         }
       },
       "block_order": [
-        "heading_Bb6Dw3",
-        "text_PPMGej",
-        "button_inMQef"
+        "text_zUEDHe",
+        "title_HmwCPq",
+        "price_yCXYhU",
+        "variant_picker_rgWr8D",
+        "quantity_selector_qfxJCD",
+        "buy_buttons_qx8Py3"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "product": "taza-termica-like-a-girl",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_with_text_AEqYcC",
-    "main"
+    "main",
+    "featured_product_FcwKqz"
   ]
 }
