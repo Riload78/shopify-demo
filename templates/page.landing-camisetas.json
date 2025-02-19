@@ -64,7 +64,7 @@
         "buy_buttons_qx8Py3"
       ],
       "settings": {
-        "product": "taza-termica-like-a-girl",
+        "product": "camiseta-programador-codigo",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
@@ -77,10 +77,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_k6UhqL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_YzGzCy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "camisetas"
+          }
+        },
+        "featured_collection_XiVVdi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tazas"
+          }
+        },
+        "featured_collection_nQxcWg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iluminacion"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_YzGzCy",
+        "featured_collection_XiVVdi",
+        "featured_collection_nQxcWg"
+      ],
+      "settings": {
+        "title": "Colecciones",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "featured_product_FcwKqz"
+    "featured_product_FcwKqz",
+    "collection_list_k6UhqL"
   ]
 }
