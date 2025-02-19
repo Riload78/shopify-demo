@@ -148,7 +148,7 @@
             "image": "shopify://shop_images/banner-change-world.webp",
             "caption": "sudo rm -f /",
             "heading": "Give me the source",
-            "text": "<p>Perfecta para programadores que saben que detrás de una gran idea hay líneas de código esperando ser escritas. </p><h4>¡Tu <strong>camiseta de programador</strong> te espera!</h4>",
+            "text": "<p>Camiseta para programadores que saben que detrás de una gran idea hay líneas de código esperando ser escritas. </p><h4>¡Tu <strong>camiseta de programador</strong> te espera!</h4>",
             "button_label": "Cambia el mundo con estilo",
             "button_link": "shopify://products/camiseta-programador-codigo"
           }
@@ -159,7 +159,7 @@
             "image": "shopify://shop_images/banner-camiseta-merge-master.webp",
             "caption": "Pull, push, ride and repeat",
             "heading": "Código limpio, espíritu rebelde",
-            "text": "<h4>Tu <strong>código</strong>, tu <strong>ruta</strong>, tu <strong>camiseta de programador</strong>. </h4><p>Fork & Ride!</p>",
+            "text": "<h4>Tu <strong>código</strong>, tu <strong>ruta</strong>, tu <strong>camiseta de programación</strong>. </h4><p>Fork & Ride!</p>",
             "button_label": "Git push origin main",
             "button_link": "shopify://products/camiseta-programador-git"
           }
