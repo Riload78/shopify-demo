@@ -186,6 +186,46 @@
         "padding_bottom": 20
       }
     },
+    "collection_list_mkpJhQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KfLNed": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "camisetas"
+          }
+        },
+        "featured_collection_anT3Ct": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tazas"
+          }
+        },
+        "featured_collection_M8WMbD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iluminacion"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KfLNed",
+        "featured_collection_anT3Ct",
+        "featured_collection_M8WMbD"
+      ],
+      "settings": {
+        "title": "Colecciones",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_83pYY4": {
       "type": "rich-text",
       "blocks": {
@@ -342,6 +382,7 @@
     "featured_collection",
     "rich_text",
     "multirow_Nt86d9",
+    "collection_list_mkpJhQ",
     "rich_text_83pYY4",
     "featured_blog_7GRyfM",
     "1737586818acf47fcd",
