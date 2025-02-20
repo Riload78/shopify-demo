@@ -53,6 +53,13 @@
             "show_social": true
           }
         },
+        "link_list_XU9K8M": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Productos destacados",
+            "menu": "productos-destacados"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -63,6 +70,7 @@
       },
       "block_order": [
         "brand_information_mbrBi9",
+        "link_list_XU9K8M",
         "footer-0"
       ],
       "settings": {
