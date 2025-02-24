@@ -57,14 +57,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Productos destacados",
-            "menu": ""
+            "menu": "productos-destacados"
           }
         },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "Enlaces destacados",
-            "menu": "no-follow-menu"
+            "menu": ""
           }
         }
       },
