@@ -9,6 +9,9 @@
     {% if request.path contains 'apps/order-tracking' %}
       <meta name="robots" content="noindex, nofollow">
       <link rel="canonical" href="https://kokecraft.com/">
+    {% elsif request.path contains 'search' %}
+      <meta name="robots" content="noindex, nofollow">
+      <link rel="canonical" href="https://kokecraft.com/">
     {% else %}
       <link rel="canonical" href="{{ canonical_url }}">
     {% endif %}
