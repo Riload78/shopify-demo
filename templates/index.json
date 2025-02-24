@@ -159,7 +159,7 @@
             "image": "shopify://shop_images/banner-camiseta-merge-master.webp",
             "caption": "Pull, push, ride and repeat",
             "heading": "Código limpio, espíritu rebelde",
-            "text": "<h4>Tu <strong>código</strong>, tu <strong>ruta</strong>, tu <strong>camiseta de programación</strong>. </h4><p>Fork & Ride!</p>",
+            "text": "<p>Si el código es tu carretera y Git tu motor, esta camiseta es para ti. Confeccionada en 100% algodón, ofrece comodidad y resistencia para esos largos días de coding o rutas en moto. Su diseño exclusivo, con un águila imponente y un mensaje poderoso, refleja tu dominio sobre cada push y merge</p><p>Fork & Ride!</p>",
             "button_label": "Git push origin main",
             "button_link": "shopify://products/camiseta-programador-git"
           }
