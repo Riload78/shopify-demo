@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    {% comment %} SEO No Follow {% endcomment %}
+    {% if request.path contains 'apps/order-tracking' %}
+      <meta name="robots" content="noindex, nofollow">
+      <link rel="canonical" href="https://kokecraft.com/">
+    {% else %}
+      <link rel="canonical" href="{{ canonical_url }}">
+    {% endif %}
     <link rel="canonical" href="{{ canonical_url }}">
 
     {%- if settings.favicon != blank -%}
