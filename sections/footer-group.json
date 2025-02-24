@@ -64,7 +64,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Enlaces destacados",
-            "menu": ""
+            "menu": "destacados"
           }
         }
       },
