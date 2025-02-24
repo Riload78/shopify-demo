@@ -67,7 +67,7 @@
         "title": "Productos destacados",
         "heading_size": "h1",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
         "collection": "destacados-home",
         "products_to_show": 4,
@@ -137,9 +137,9 @@
             "image": "shopify://shop_images/bug.webp",
             "caption": "",
             "heading": "Codifica cafeteando",
-            "text": "<p>Mug para programadores que mantienen tu bebida caliente mientras debuggeas el mundo. </p>",
+            "text": "<p>El código no entiende de géneros, y esta taza lo deja claro. Diseñada para mantener tu café caliente durante horas mientras conquistas líneas de código. Ideal para programadoras que desafían los estereotipos y dejan su marca en el mundo tech</p>",
             "button_label": "Ver producto",
-            "button_link": "shopify://products/lampara-de-amor-acrilica-3d"
+            "button_link": "shopify://products/taza-termica-like-a-girl"
           }
         },
         "row_UeMmA4": {
@@ -148,7 +148,7 @@
             "image": "shopify://shop_images/banner-change-world.webp",
             "caption": "sudo rm -f /",
             "heading": "Give me the source",
-            "text": "<p>Camiseta para programadores que saben que detrás de una gran idea hay líneas de código esperando ser escritas. </p><h4>¡Tu <strong>camiseta de programador</strong> te espera!</h4>",
+            "text": "<p>Si tu día a día se basa en escribir, probar y optimizar código, esta camiseta es para ti. Un diseño minimalista pero potente que representa la esencia del desarrollo. Perfecta para hackathones, meetups o simplemente para programar con comodidad.</p><h4>¡Tu <strong>camiseta de programador</strong> te espera!</h4>",
             "button_label": "Cambia el mundo con estilo",
             "button_link": "shopify://products/camiseta-programador-codigo"
           }
@@ -159,7 +159,7 @@
             "image": "shopify://shop_images/banner-camiseta-merge-master.webp",
             "caption": "Pull, push, ride and repeat",
             "heading": "Código limpio, espíritu rebelde",
-            "text": "<h4>Tu <strong>código</strong>, tu <strong>ruta</strong>, tu <strong>camiseta de programación</strong>. </h4><p>Fork & Ride!</p>",
+            "text": "<p>Si el código es tu carretera y Git tu motor, esta camiseta es para ti. Confeccionada en 100% algodón, ofrece comodidad y resistencia para esos largos días de coding o rutas en moto. Su diseño exclusivo, con un águila imponente y un mensaje poderoso, refleja tu dominio sobre cada push y merge</p><p>Fork & Ride!</p>",
             "button_label": "Git push origin main",
             "button_link": "shopify://products/camiseta-programador-git"
           }
